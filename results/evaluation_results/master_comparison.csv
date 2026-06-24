@@ -1,0 +1,4 @@
+Model,Precision@K,Recall@K,F1@K,NDCG@K,MAP@K,Hit_Rate@K,Exact_Match_Precision,Category_Hit_Rate,MRR
+Baseline (TF-IDF + KNN),0.0229,0.0031,0.0054,0.0245,0.0114,0.1143,0.0229,0.9543,0.0571
+Deep Learning (NCF Two-Tower),0.0229,0.0037,0.0063,0.0229,0.0105,0.1143,0.0229,0.96,0.0524
+Proposed Hybrid (MiniLM + SVD),0.0114,0.0017,0.003,0.0099,0.004,0.0571,0.0114,0.9486,0.02
